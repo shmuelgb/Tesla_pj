@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "Gotham Medium";
+  src: url(/styles/assets/fonts/GothamSSm-Medium_Web.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid black;
+  font-family: Gotham Medium;
+  font-size: 15px;
+  color: #fff;
+}
+
+.page-1 {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8fa80996-ac5c-4cef-9534-a61a9457bfb3/bvlatuR/std/2880x1800/M3-Hero-LHD-US-D)
+    no-repeat center center/ cover;
+  height: 108vh;
+  width: 98.8vw;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+}
+
+.page-1__logo {
+  height: 30px;
+  width: 180px;
+  padding-left: 40px;
+  margin-top: 5px;
+  float: left;
+  /* border: orange solid 2px; */
+}
+
+.navbar__mid {
+  position: absolute;
+  right: 30%;
+}
+
+.navbar__right {
+  float: right;
+  overflow: auto;
+  padding-right: 32px;
+}
+
+.navbar ul li {
+  float: left;
+  overflow: auto;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 4px 14px;
+  text-decoration: none;
+  color: #fff;
+
+  border: solid 1px transparent;
+  border-radius: 12px;
+}
+
+.navbar ul li a:hover {
+  background-color: #81848b;
+  transition: 0.8s;
+}
+
+.page-1__title {
+  display: block;
+  font-size: 43px;
+  position: relative;
+  text-align: center;
+  top: 130px;
+  margin-bottom: 600px;
+}
+
+.page-1__footer {
+  /* border: white 1px solid; */
+  margin: auto;
+  /* width: 100%; */
+  height: 75px;
+  position: relative;
+}
+
+.speedometer-tab {
+  /* border: white 1px solid; */
+  width: 120px;
+  height: 70px;
+  position: relative;
+  font-size: 30px;
+  text-align: right;
+  margin-left: 30.5%;
+}
+
+.speedometer-icon {
+  /* border: white 1px solid; */
+  width: 52px;
+  position: absolute;
+  margin-top: 4px;
+}
+
+.seconds {
+  font-size: 26px;
+}
+
+.speedometer-footer {
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.miles-tab {
+  /* border: white 1px solid; */
+  font-size: 30px;
+  width: 155px;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  text-align: center;
+  /* margin-left: 30.5%; */
+}
+
+.miles-footer {
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+
+.awd-tab {
+  /* border: white 1px solid; */
+  font-size: 30px;
+  width: 155px;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  right: 40.5%;
+  text-align: center;
+}
+
+.awd-footer {
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 38px;
+}
+
+.order-now {
+  /* border: white 1px solid; */
+  font-size: 14px;
+  width: 170px;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  right: 29.5%;
+  text-align: center;
+}
+
+.order-now a {
+  display: block;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: #fff;
+  border: solid 3px white;
+  border-radius: 32px;
+  margin-top: 4px;
+}
+
+.order-now a:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.6s;
+}
+
+.page-2 {
+  background-color: #fff;
+  height: 1000px;
+}
