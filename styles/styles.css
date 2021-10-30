@@ -3,6 +3,21 @@
   src: url(/styles/assets/fonts/GothamSSm-Medium_Web.woff2);
 }
 
+@font-face {
+  font-family: "Gotham light";
+  src: url(/styles/assets/fonts/GothamSSm-Light_Web.woff2);
+}
+
+@font-face {
+  font-family: "Gotham SSm";
+  src: url(/styles/assets/fonts/GothamSSm-Book_Web.woff2);
+}
+
+@font-face {
+  font-family: "Gotham bold";
+  src: url(/styles/assets/fonts/GothamSSm-Bold_Web.woff2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +26,7 @@
 
 .container {
   border: 1px solid black;
-  font-family: Gotham Medium;
+  font-family: "Gotham Medium";
   font-size: 15px;
   color: #fff;
 }
@@ -184,6 +199,164 @@
 }
 
 .page-2 {
-  background-color: #fff;
+  /* background-color: #fff; */
+  color: #000;
+  height: 800px;
+  position: relative;
+}
+
+.page-2__logo-wrapper {
+  /* border: #000 solid 1px; */
+  width: 200px;
+  /* height: 30px; */
+  position: sticky;
+  top: 0px;
+}
+
+.page-2__logo {
+  height: 30px;
+  width: 195px;
+  padding-left: 54px;
+  margin-top: 5px;
+  float: left;
+}
+
+.page-2__right-side {
+  height: 100%;
+  width: 74%;
+  float: right;
+  /* position: absolute;
+  top: 0px;
+  right: 0px; */
+  background-color: #f5f5f5;
+}
+
+.page-2__right-side__img {
+  height: 100%;
+  width: 913px;
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ba4f4fe9-5c46-48c2-ad03-a5c7bf68f30c/bvlatuR/std/2880x1800/model_3_safety_hero)
+    no-repeat -310px center / cover;
+}
+
+.page-2__left-side {
+  border: #000 solid 1px;
+  padding: 0px 54px;
+  height: 100%;
+  width: 438px;
+  /* width: 415px; */
+  padding-top: 54px;
+}
+
+.page-2__left-side__text {
+  /* border: #000 solid 1px; */
+  height: 290px;
+}
+
+#pre-header {
+  font-family: "Gotham light";
+  font-size: 17px;
+}
+
+.page-2__left-side__text__header {
+  font-size: 27px;
+  color: #181b21;
+  margin-bottom: 20px;
+}
+
+.page-2__left-side__text p {
+  margin: auto;
+  font-family: "Gotham SSm";
+  font-size: 14px;
+  color: #393c41;
+  line-height: 23px;
+  width: 315px;
+}
+
+.page-2__left-side__ratings {
+  border: transparent solid 1px;
+  border-radius: 24px;
+  height: 296px;
+  width: 315px;
+  background-color: #e2e4e4;
+  padding: 24px;
+  margin: auto;
+}
+
+.page-2__left-side__header {
+  font-size: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  color: #181b21;
+}
+
+.page-2__left-side__ratings ul {
+  list-style: none;
+}
+
+.page-2__left-side__ratings__cards {
+  height: 36.8px;
+  color: #393c41;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.page-2__left-side__ratings__cards__header {
+  font-family: "Gotham bold";
+  font-size: 16px;
+}
+
+.page-2__left-side__ratings__cards__micro {
+  font-family: "Gotham SSm";
+  font-size: 8px;
+  position: absolute;
+  left: 0px;
+  bottom: 6px;
+}
+
+.page-2__left-side__ratings__cards__stars {
+  position: absolute;
+  right: 0px;
+  font-size: 17px;
+}
+
+.page-2__left-side__buttons {
+  border: black solid 1px;
+  margin: auto;
+  margin-top: 16px;
+  width: 315px;
+  height: 110.4px;
+  color: #393c41;
+}
+
+.page-2__left-side__buttons__learn {
+  background-color: white;
+  font-family: "Gotham SSm";
+  font-size: 18px;
+}
+
+.page-2__left-side__buttons__learn a {
+  text-decoration: none;
+  border: black solid 3px;
+  border-radius: 20px;
+  padding: 6px 11.5px;
+  /* font-family: "Gotham bold"; */
+  font-size: 20px;
+  color: #000;
+}
+
+.page-2__left-side__buttons button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.page-3 {
+  border: #000 solid 1px;
+  background-color: coral;
   height: 1000px;
+  position: relative;
+}
+
+.tcl-showcase__drawer-open-button {
+  --tds-icon--size: 40px;
 }
