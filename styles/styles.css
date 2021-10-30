@@ -217,7 +217,7 @@
   height: 30px;
   width: 195px;
   padding-left: 54px;
-  margin-top: 5px;
+  margin-top: 20px;
   float: left;
 }
 
@@ -239,7 +239,7 @@
 }
 
 .page-2__left-side {
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
   padding: 0px 54px;
   height: 100%;
   width: 438px;
@@ -320,43 +320,135 @@
 }
 
 .page-2__left-side__buttons {
-  border: black solid 1px;
+  /* border: black solid 1px; */
   margin: auto;
   margin-top: 16px;
   width: 315px;
   height: 110.4px;
   color: #393c41;
+  position: relative;
 }
 
 .page-2__left-side__buttons__learn {
   background-color: white;
   font-family: "Gotham SSm";
-  font-size: 18px;
+  position: absolute;
+  top: 38%;
+  font-size: 14px;
 }
 
-.page-2__left-side__buttons__learn a {
+.page-2__left-side__buttons a {
   text-decoration: none;
-  border: black solid 3px;
-  border-radius: 20px;
-  padding: 6px 11.5px;
-  /* font-family: "Gotham bold"; */
+  border: #393c41 solid 3px;
+  font-size: 18px;
+  border-radius: 24px;
+  padding: 8px 14px;
   font-size: 20px;
-  color: #000;
+  color: #393c41;
 }
 
-.page-2__left-side__buttons button:hover {
+.page-2__left-side__buttons a:hover {
   color: white;
   background-color: black;
+  border-color: #000;
   cursor: pointer;
+  transition: 10ms;
+}
+
+.page-2__left-side__buttons__order {
+  position: absolute;
+  right: 10px;
+  top: 42%;
+}
+
+#order {
+  font-size: 12px;
+  padding: 12px 24px;
+}
+
+#order:hover {
+  transition: 0.5s;
 }
 
 .page-3 {
-  border: #000 solid 1px;
-  background-color: coral;
-  height: 1000px;
+  /* border: #000 solid 1px; */
+  /* background-color: coral; */
+  height: 720px;
+  position: relative;
+  color: #000;
+}
+
+.page-3__logo-wrapper {
+  /* border: #000 solid 1px; */
+  width: 200px;
+  /* height: 30px; */
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+.page-3__logo {
+  height: 30px;
+  width: 195px;
+  padding-left: 54px;
+  margin-top: 20px;
+  float: left;
+}
+
+.page-3__img {
+  background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop)
+    no-repeat center center/ cover;
+  height: 470px;
+  width: 100vw;
+}
+
+.page-3__buttom {
+  /* border: #000 solid 1px; */
+  height: 198px;
+  width: 100%;
   position: relative;
 }
 
-.tcl-showcase__drawer-open-button {
-  --tds-icon--size: 40px;
+.page-3__buttom__text {
+  /* border: #000 solid 1px; */
+  font-family: "Gotham SSm";
+  color: #393c41;
+  font-size: 14px;
+  height: 120px;
+  width: 624px;
+  padding-bottom: 16px;
+  position: absolute;
+  top: 48px;
+  right: 300px;
+  line-height: 23px;
+}
+
+.page-3__buttom__buttons {
+  /* border: #000 solid 1px; */
+  width: 351px;
+  height: 120px;
+  font-family: "Gotham light";
+  font-size: 17px;
+  color: #181b21;
+  position: absolute;
+  top: 48px;
+  left: 400px;
+}
+
+.page-3__buttom__buttons_header {
+  font-family: "Gotham Medium";
+  font-size: 28px;
+}
+
+#page-3__buttons {
+  height: 50px;
+  margin: 0;
+}
+
+#page-3__speedometer-tab {
+  width: 298px;
+}
+
+.page-4 {
+  height: 1000px;
 }
